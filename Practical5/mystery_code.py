@@ -12,10 +12,10 @@ from math import ceil
 
 progress=0
 stored_random_number=0
-while progress<10:   
+while progress<10:
 #create a  loop
-	progress+=1  
-	n = randint(1,100)  
+	progress+=1
+	n = randint(1,100)
         #produce a random number in (1,100)
 	if n > stored_random_number:  # stored_random_number = Max{n, stored_random_number}
 		stored_random_number = n
