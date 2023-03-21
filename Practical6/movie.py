@@ -9,13 +9,18 @@ favor_movie = {'Comedy' :73,
                'Document' :12,
                'History' :8,
                'War' :7}
+#if you want to change the input, please directly change in the 'favor_movie' dictionary above.
 print(favor_movie)
+
+genre=input("Please give me a movie genre:") #store the input movie genre
+number = favor_movie.get(genre) #the number of students of given movie genre
+print('The number of students that like this genre is', number)
 
 import matplotlib.pyplot as plt
 # construct a pie chart from the data above
-labels = 'Comedy', 'Action', 'Romance', 'Fantasy', 'Science-fiction', 'Horro', 'Crime', 'Document', 'History', 'War'
-sizes = [73, 42, 38, 28, 22, 19, 18, 12, 8, 7]
-explode=(0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+labels = favor_movie.keys() #labels is the list of keys
+sizes = favor_movie.values() #sizes is the list of values
+explode=(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 #specifies the fraction of the radius with which to offset each wedge
 plt.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90)
 plt.axis('equal')
