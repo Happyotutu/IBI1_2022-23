@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 N=8
 costs=[1, 8, 15, 7, 5, 14, 43, 40]
+sorted_list = costs.sort(reverse=false) #the sorted list of costs
 width=0.4 #the width of each bar
 ind=np.arange(N)
 plt.figure(figsize=(15,5)) #change figure size
