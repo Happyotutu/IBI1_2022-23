@@ -17,7 +17,7 @@ def DNA_cal(self):
     print("The percent of coding sequence is", percent)
     if per > 0.5:
         print("This sequence is a protein-coding sequence.")
-    if per < 0.1:
+    elif per < 0.1:
         print("This sequence is a non-coding sequence.")
     else:
         print("This sequence is an unclear sequence.")
