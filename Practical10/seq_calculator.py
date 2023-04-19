@@ -23,3 +23,9 @@ def DNA_cal(self):
         print("This sequence is an unclear sequence.")
 seq = input("Please input a DNA sequence:")
 DNA_cal(seq)
+#an example
+#Please input a DNA sequence: AAAAAAAATTTTTTATGCCCCGGGGGAAATTTTTGAAAAAAA
+#The length of coding line is 22
+#The percent of coding sequence is 51%
+#This sequence is a protein-coding sequence.
+#This sequence is an unclear sequence.
