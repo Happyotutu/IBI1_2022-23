@@ -12,4 +12,4 @@ def buy_house(salary, price):
         print("No")
 # an example
 buy_house(10000, 999)
-
+#Yes
