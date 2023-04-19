@@ -8,7 +8,8 @@ def DNA_cal(self):
     else print('unclear')
     
     """
-    start_seq = self[self.index("ATG"):]
+    sequence = self.upper()
+    start_seq = sequence[sequence.index("ATG"):]
     coding_seq = start_seq[:start_seq.index("TGA")]
     code_seq = coding_seq+"TGA" 
     print("The length of coding line is", len(code_seq))
@@ -28,4 +29,3 @@ DNA_cal(seq)
 #The length of coding line is 22
 #The percent of coding sequence is 51%
 #This sequence is a protein-coding sequence.
-#This sequence is an unclear sequence.
