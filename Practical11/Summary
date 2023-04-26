@@ -1,0 +1,21 @@
+>>ACE2_HUMAN(Q9BYF1)  &  ACE2_MOUSE(QBR010)
+Alignment Matrix:BLOSUM62
+Alignment Score: 3579
+Identical Percentage: 82.11180124223603%
+
+>>ACE2_HUMAN(Q9BYF1)  &  ACE2_CAT(Q56H28)
+Alignment Matrix:BLOSUM62
+Alignment Score: 3717
+Identical Percentage: 85.21739130434782%
+
+>>ACE2_CAT(Q56H28) &  ACE2_MOUSE(QBR010)
+Alignment Matrix:BLOSUM62
+Alignment Score: 3592
+Identical Percentage: 81.73913043478261%
+
+Analysis:
+The alignment score and identical percentage of human and cat are both the biggest. 
+So ACE2_HUMAN(Q9BYF1) and ACE2_CAT(Q56H28) are most closely related. 
+In other words, human and cat are most similar.
+Based on the results, cat and human are more likely to have the same ancestor than human and mouse, mouse and cat.
+Cats and humans are more closely related and have similar evolutionary paths.
