@@ -1,5 +1,5 @@
 Question: How have new cases and total cases developed over time in the UK?
-Line number:74-85
+Line number:69-81
 Answer:The total cases kept increading. And the increase in the later stage was greater than that in the early stage.
 The new cases was nearly 0 at first. But then it roughly increased day by day.
 Only a few days decreased a little.
