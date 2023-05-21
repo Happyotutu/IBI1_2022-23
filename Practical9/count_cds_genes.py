@@ -6,7 +6,7 @@ gene_name = '' #as a variable to store gene name
 sequence = '' #as a variable to store sequence
 for line in content:
   if line.startswith('>'):
-      if sequence and sequence.endswith(f'{stop_codons}):
+      if sequence and sequence.endswith(f'{stop_codons}'):
           number = str(sequence.count(stop_codons))
           output_file.write(f'>{gene_name}{number}\n{sequence}\n')
       sequence = ''
