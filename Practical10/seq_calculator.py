@@ -26,7 +26,7 @@ elif per < 0.1:
     print("This sequence is a non-coding sequence.")
 else:
     print("This sequence is an unclear sequence.")
-#an example
+#my example
 #Please input a DNA sequence: AAAAAAAATTTTTTATGCCCCGGGGGAAATTTTTGAAAAAAA
 #The length of coding line is 22
 #The percent of coding sequence is 52%
