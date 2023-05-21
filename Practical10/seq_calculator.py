@@ -16,16 +16,18 @@ def DNA_cal(self):
     per = len(code_seq)/len(self)
     percent = '{:.0%}'.format(per)
     print("The percent of coding sequence is", percent)
-    if per > 0.5:
-        print("This sequence is a protein-coding sequence.")
-    elif per < 0.1:
-        print("This sequence is a non-coding sequence.")
-    else:
-        print("This sequence is an unclear sequence.")
+    return per
+
 seq = input("Please input a DNA sequence:")
-DNA_cal(seq)
+per = DNA_cal(seq)
+if per > 0.5:
+   print("This sequence is a protein-coding sequence.")
+elif per < 0.1:
+    print("This sequence is a non-coding sequence.")
+else:
+    print("This sequence is an unclear sequence.")
 #an example
 #Please input a DNA sequence: AAAAAAAATTTTTTATGCCCCGGGGGAAATTTTTGAAAAAAA
 #The length of coding line is 22
-#The percent of coding sequence is 51%
+#The percent of coding sequence is 52%
 #This sequence is a protein-coding sequence.
