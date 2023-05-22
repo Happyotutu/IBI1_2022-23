@@ -11,9 +11,9 @@ def DNA_cal(self):
     sequence = self.upper()
     start_seq = sequence[sequence.index("ATG"):]
     coding_seq = start_seq[:start_seq.index("TGA")]
-    code_seq = coding_seq+"TGA" 
-    print("The length of coding line is", len(code_seq))
-    per = len(code_seq)/len(self)
+    len_code_seq = len(coding_seq)-3
+    print("The length of coding line is", len_code_seq)
+    per = len_code_seq/len(self)
     percent = '{:.0%}'.format(per)
     print("The percent of coding sequence is", percent)
     return per
@@ -28,6 +28,6 @@ else:
     print("This sequence is an unclear sequence.")
 #my example
 #Please input a DNA sequence: AAAAAAAATTTTTTATGCCCCGGGGGAAATTTTTGAAAAAAA
-#The length of coding line is 22
-#The percent of coding sequence is 52%
-#This sequence is a protein-coding sequence.
+#The length of coding line is 16
+#The percent of coding sequence is 38%
+#This sequence is an unclear sequence.
